@@ -1,24 +1,24 @@
 /**
  * 
  */
-package org.jokerd.opensocial.tweeter;
+package org.jokerd.opensocial.twitter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
 
-import org.jokerd.opensocial.tweeter.model.TweetParser;
+import org.jokerd.opensocial.twitter.model.TweetParser;
 
 /**
  * @author kotelnikov
  */
-public class TweeterParserTest extends TestCase {
+public class TwitterParserTest extends TestCase {
 
     /**
      * @param name
      */
-    public TweeterParserTest(String name) {
+    public TwitterParserTest(String name) {
         super(name);
     }
 
