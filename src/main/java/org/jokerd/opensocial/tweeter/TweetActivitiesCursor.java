@@ -32,8 +32,7 @@ public class TweetActivitiesCursor
 
     // https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&exclude_replies=false&include_rts=true&screen_name=USER_NAME&count=200
 
-    private static String TWITTER_FRIENDS =
-    "http://api.twitter.com/1/statuses/home_timeline.json?include_entities=true&count=200";
+    private static String TWITTER_FRIENDS = "http://api.twitter.com/1/statuses/home_timeline.json?include_entities=true&count=200";
 
     private final OAuthHelper fOAuthHelper;
 
@@ -47,7 +46,6 @@ public class TweetActivitiesCursor
         fUrl = TWITTER_FRIENDS;
     }
 
-    
     public TweetActivitiesCursor(OAuthHelper oauthHelper, String url) {
         fOAuthHelper = oauthHelper;
         fUrl = url;
